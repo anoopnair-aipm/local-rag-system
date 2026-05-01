@@ -135,7 +135,7 @@ Claude reads your documents first, then answers. Only your documents matter — 
 ## Project Structure
 
 local-rag-system/
-├── src/
+├── src/ 
 │   ├── ingest.py              # Load, chunk, embed documents
 │   ├── query_claude.py        # Query via Claude API (CLI)
 │   └── rag_chat.py            # Web chat interface (Streamlit)
