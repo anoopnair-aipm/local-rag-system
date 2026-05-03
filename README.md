@@ -211,7 +211,7 @@ MIT — Free to use and modify for personal and commercial projects.
 
 ## Questions?
 
-Open an issue on [GitHub](https://github.com/anoopnair-aipm/local-rag-system/issues) or reach out on [LinkedIn](https://linkedin.com/in/anoopnsair).
+Open an issue on [GitHub](https://github.com/anoopnair-aipm/local-rag-system/issues) or reach out on [LinkedIn](https://www.linkedin.com/in/anoopsnair/).
 
 ---
 
