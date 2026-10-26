@@ -1,0 +1,12 @@
+# Chat interface
+streamlit>=1.37
+
+# Answer generation (Claude API)
+anthropic>=2.0
+
+# Retrieval: loaders, chunking, vector store, local embeddings via Ollama
+langchain-community>=0.4
+langchain-text-splitters>=1.0
+langchain-ollama>=1.0
+chromadb>=1.0
+pypdf>=6.0

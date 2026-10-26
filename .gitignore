@@ -1,0 +1,21 @@
+# Your documents and their index stay on your machine
+my_docs/
+chroma_db/
+
+# Virtual environments
+rag-env/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets — never commit an API key
+.env
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

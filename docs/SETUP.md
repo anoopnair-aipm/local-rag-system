@@ -48,9 +48,9 @@ You should see `(rag-env)` at the start of your Terminal prompt.
 pip install -r requirements.txt
 ```
 
-### 5. Get Your Claude API Key (Optional)
+### 5. Get Your Claude API Key
 
-If using Claude for answer generation (recommended):
+The chat app uses Claude to generate answers:
 
 1. Go to [console.anthropic.com](https://console.anthropic.com)
 2. Click **API Keys**
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ### Error: `No documents indexed`
 
-**Fix:** Drag PDFs into the sidebar and click "Index Now"
+**Fix:** Copy your PDFs into `my_docs/`, then run `python src/ingest.py`
 
 ---
 
@@ -99,7 +99,7 @@ A: No. ChromaDB stays on your Mac. Only document chunks are sent to Claude API (
 A: Yes. Edit `src/rag_chat.py` to use `OllamaLLM` instead of Claude API.
 
 **Q: How do I add more documents?**  
-A: Use the sidebar uploader. No Terminal needed.
+A: Copy them into `my_docs/` and re-run `python src/ingest.py`.
 
 **Q: Is this production-ready?**  
 A: It's built for personal PM productivity. For production, add error handling, logging, and authentication.
