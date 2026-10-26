@@ -189,15 +189,15 @@ with st.sidebar:
     st.markdown("""
 1. Your question →
 2. ChromaDB finds relevant chunks →
-3. Claude answers from your docs →
-4. No hallucination
+3. Claude answers from those excerpts →
+4. Or says your docs don't cover it
     """)
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="header-block">
     <h1>🧠 My Doc Assistant</h1>
-    <p>local rag · powered by claude · zero hallucination</p>
+    <p>local index · answers by claude · grounded in your docs</p>
 </div>
 """, unsafe_allow_html=True)
 
